@@ -1,4 +1,4 @@
-package List;
+package Ds;
 
 import java.util.Random;
 
@@ -20,7 +20,7 @@ class SkipNode<E extends Comparable<E>>{
         this.right = right;
     }
 
-    public SkipNode(E data, List.SkipNode right) {
+    public SkipNode(E data, Ds.SkipNode right) {
         this.data = data;
         this.right = right;
     }
